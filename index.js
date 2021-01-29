@@ -2,6 +2,7 @@
 
 const alertButton = document.querySelector("button.btn")
 const consoleButton = document.querySelectorAll("button.btn")[1]
+// one way
 // alertButton.addEventListener('click', clickButtonAlert)
 
 
@@ -9,8 +10,11 @@ const consoleButton = document.querySelectorAll("button.btn")[1]
 //     alert('Alert!')
 // }
 
+//another way
+
 // alertButton.addEventListener('click', function (event) {alert('Alert!')})
 
+//and another 
 alertButton.addEventListener('click', (event) => {alert('using JS command alert')})
 
 consoleButton.addEventListener('click', (event) => {console.log('this should be console logged?')})
